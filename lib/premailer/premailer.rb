@@ -82,21 +82,21 @@ class Premailer
       '-premailer-cellspacing' => 'cellspacing',
     },
     'tr' => {
-      'text-align' => 'align',
       'background-color' => 'bgcolor',
+      '-premailer-align' => 'align',
       '-premailer-height' => 'height'
     },
     'th' => {
-      'text-align' => 'align',
       'background-color' => 'bgcolor',
-      'vertical-align' => 'valign',
+      '-premailer-align' => 'align',
+      '-premailer-valign' => 'valign',
       '-premailer-width' => 'width',
       '-premailer-height' => 'height'
     },
     'td' => {
-      'text-align' => 'align',
       'background-color' => 'bgcolor',
-      'vertical-align' => 'valign',
+      '-premailer-align' => 'align',
+      '-premailer-valign' => 'valign',
       '-premailer-width' => 'width',
       '-premailer-height' => 'height'
     },
